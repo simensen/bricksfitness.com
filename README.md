@@ -10,6 +10,8 @@ Powered by [Sculpin](http://sculpin.io). =)
 Build
 -----
 
-    wget http://getcomposer.org/composer.phar
+    curl -s https://getcomposer.org/installer | php
     php composer.phar install
-    php vendor/bin/sculpin generate
+    php vendor/bin/sculpin generate --watch --server
+
+Browse to `http://localhost:8000`. =)
